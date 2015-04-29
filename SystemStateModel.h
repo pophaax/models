@@ -2,7 +2,8 @@
 #include "../models/CompassModel.h"
 #include "../models/WindsensorModel.h"
 
-struct SystemStateModel {
+class SystemStateModel {
+public:
 	SystemStateModel(
 		GPSModel gpsModel,
 		WindsensorModel windsensorModel,
