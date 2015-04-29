@@ -11,7 +11,7 @@ public:
 	) :
 		direction(direction),
 		speed(speed),
-		temperature(temperature),
+		temperature(temperature)
 	{};
 
 	~WindsensorModel() {};
