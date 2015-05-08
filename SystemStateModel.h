@@ -1,3 +1,6 @@
+#ifndef __SYSTEMSTATEMODEL_H__
+#define __SYSTEMSTATEMODEL_H__
+
 #include "../models/GPSModel.h"
 #include "../models/CompassModel.h"
 #include "../models/WindsensorModel.h"
@@ -26,3 +29,5 @@ public:
 	int rudder;
 	int sail;
 };
+
+#endif
