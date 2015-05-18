@@ -13,6 +13,7 @@ public:
 		double heading,
 		int satellitesUsed
 	) :
+		online(false),
 		timestamp(timestamp),
 		latitude(latitude),
 		longitude(longitude),
@@ -24,6 +25,7 @@ public:
 	
 	~GPSModel() {};
 
+	bool online;
 	std::string timestamp;
 	double latitude;
 	double longitude;
