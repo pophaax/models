@@ -1,6 +1,8 @@
 #ifndef __GPSMODEL_H__
 #define __GPSMODEL_H__
 
+#include <string>
+
 class GPSModel
 {
 public:
