@@ -18,6 +18,10 @@ public:
 	PositionModel positionModel;	
 	int radius;
 	std::string id;
+
+	int type;
+	int innerRadius;
+	int time;
 };
 
 #endif
