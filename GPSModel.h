@@ -7,6 +7,7 @@ class GPSModel
 {
 public:
 	GPSModel(
+		bool online,
 		std::string timestamp,
 		double latitude,
 		double longitude,
@@ -15,7 +16,7 @@ public:
 		double heading,
 		int satellitesUsed
 	) :
-		online(false),
+		online(online),
 		timestamp(timestamp),
 		latitude(latitude),
 		longitude(longitude),
