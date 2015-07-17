@@ -7,11 +7,11 @@
 class WaypointModel
 {
 public:	
-	WaypointModel(PositionModel positionModel, int radius, std::string id, int time) :
+	WaypointModel(PositionModel positionModel, int radius, std::string id) :
 		positionModel(positionModel),
 		radius(radius),
 		id(id),
-		time(time)
+		time(0)
 	{};
 
 	~WaypointModel() {};
