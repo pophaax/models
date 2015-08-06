@@ -8,8 +8,7 @@ class GPSModel
 public:
 	GPSModel(
 		std::string timestamp,
-		double latitude,
-		double longitude,
+		PositionModel positionModel,
 		double altitude,
 		double speed,
 		double heading,
@@ -17,8 +16,7 @@ public:
 	) :
 		online(false),
 		timestamp(timestamp),
-		latitude(latitude),
-		longitude(longitude),
+		positionModel(positionModel),
 		altitude(altitude),
 		speed(speed),
 		heading(heading),
@@ -29,8 +27,7 @@ public:
 
 	bool online;
 	std::string timestamp;
-	double latitude;
-	double longitude;
+	PositionModel positionModel;
 	double altitude;
 	double speed;
 	double heading;
