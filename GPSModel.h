@@ -1,6 +1,7 @@
 #ifndef __GPSMODEL_H__
 #define __GPSMODEL_H__
 
+#include "PositionModel.h"
 #include <string>
 
 class GPSModel

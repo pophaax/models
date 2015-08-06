@@ -1,7 +1,7 @@
 #ifndef __WAYPOINTMODEL_H__
 #define __WAYPOINTMODEL_H__
 
-#include "../models/PositionModel.h"
+#include "PositionModel.h"
 #include <string>
 
 class WaypointModel
