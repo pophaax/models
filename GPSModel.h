@@ -15,8 +15,9 @@ public:
 		double heading,
 		int satellitesUsed
 	) :
-		online(false),
+		online(false),		
 		timestamp(timestamp),
+		utc_timestamp(""),
 		positionModel(positionModel),
 		altitude(altitude),
 		speed(speed),
@@ -28,6 +29,7 @@ public:
 
 	bool online;
 	std::string timestamp;
+	std::string utc_timestamp;
 	PositionModel positionModel;
 	double altitude;
 	double speed;
