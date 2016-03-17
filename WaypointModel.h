@@ -7,9 +7,10 @@
 class WaypointModel
 {
 public:	
-	WaypointModel(PositionModel positionModel, int radius, std::string id) :
+	WaypointModel(PositionModel positionModel, int radius, std::string id, int declination) :
 		positionModel(positionModel),
 		radius(radius),
+		declination(declination),
 		id(id),
 		time(0)
 	{};
@@ -18,6 +19,7 @@ public:
 
 	PositionModel positionModel;	
 	int radius;
+	int declination;
 	std::string id;
 	int time;
 };
