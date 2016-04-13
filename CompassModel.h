@@ -4,10 +4,13 @@
 class CompassModel
 {
 public:
-	CompassModel(int heading, int pitch, int roll) :
+	CompassModel(int heading, int pitch, int roll, int accelX, int accelY, int accelZ) :
 		heading(heading),
 		pitch(pitch),
-		roll(roll)
+		roll(roll),
+		accelX(accelX),
+		accelX(accelY),
+		accelX(accelZ)
 	{};
 
 	~CompassModel() {};
@@ -15,6 +18,10 @@ public:
 	int heading;
 	int pitch;
 	int roll;
+        
+        int accelX;
+	int accelY; 
+	int accelZ;
 };
 
 #endif
