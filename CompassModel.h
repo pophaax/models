@@ -9,8 +9,8 @@ public:
 		pitch(pitch),
 		roll(roll),
 		accelX(accelX),
-		accelX(accelY),
-		accelX(accelZ)
+		accelY(accelY),
+		accelZ(accelZ)
 	{};
 
 	~CompassModel() {};
