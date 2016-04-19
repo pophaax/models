@@ -14,6 +14,9 @@
 #ifndef ACCELERATIONMODEL_H
 #define ACCELERATIONMODEL_H
 
+class AccelerationModel
+{
+public:
     AccelerationModel(int accelX,int accelY, int accelZ) :
             accelX(accelX),
             accelY(accelY),
@@ -25,6 +28,6 @@
         int accelX;
         int accelY; 
         int accelZ;
-
+};
 #endif /* ACCELERATIONMODEL_H */
 
