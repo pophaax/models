@@ -12,13 +12,15 @@ public:
 		WindsensorModel windsensorModel,
 		CompassModel compassModel,
 		int rudder,
-		int sail
+		int sail,
+		int pressure
 	) :
 		gpsModel(gpsModel),
 		windsensorModel(windsensorModel),
 		compassModel(compassModel),
 		rudder(rudder),
-		sail(sail)
+		sail(sail),
+		pressure(pressure)
 	{};
 
 	~SystemStateModel() {};
@@ -28,6 +30,7 @@ public:
 	CompassModel compassModel;
 	int rudder;
 	int sail;
+	int pressure;
 };
 
 #endif
