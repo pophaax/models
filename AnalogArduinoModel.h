@@ -5,7 +5,7 @@ class AnalogArduinoModel
 {
 public:
 	AnalogArduinoModel(int analogValue) :
-		value(analogValue)
+		analogValue(analogValue)
 	{};
 
 	~AnalogArduinoModel() {};
