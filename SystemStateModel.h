@@ -4,6 +4,7 @@
 #include "../models/GPSModel.h"
 #include "../models/CompassModel.h"
 #include "../models/WindsensorModel.h"
+#include "../models/AnalogArduinoModel.h"
 
 class SystemStateModel {
 public:
@@ -11,16 +12,16 @@ public:
 		GPSModel gpsModel,
 		WindsensorModel windsensorModel,
 		CompassModel compassModel,
+		AnalogArduinoModel arduinoModel,
 		int rudder,
-		int sail,
-		int pressure
+		int sail
 	) :
 		gpsModel(gpsModel),
 		windsensorModel(windsensorModel),
 		compassModel(compassModel),
+		arduinoModel(arduinoModel),
 		rudder(rudder),
-		sail(sail),
-		pressure(pressure)
+		sail(sail)
 	{};
 
 	~SystemStateModel() {};
@@ -28,9 +29,9 @@ public:
 	GPSModel gpsModel;
 	WindsensorModel windsensorModel;
 	CompassModel compassModel;
+	AnalogArduinoModel arduinoModel;
 	int rudder;
 	int sail;
-	int pressure;
 };
 
 #endif
