@@ -1,10 +1,10 @@
 #ifndef __SYSTEMSTATEMODEL_H__
 #define __SYSTEMSTATEMODEL_H__
 
-#include "../models/GPSModel.h"
-#include "../models/CompassModel.h"
-#include "../models/WindsensorModel.h"
-#include "../models/AnalogArduinoModel.h"
+#include "models/GPSModel.h"
+#include "models/CompassModel.h"
+#include "models/WindsensorModel.h"
+#include "models/AnalogArduinoModel.h"
 
 class SystemStateModel {
 public:
